@@ -1,7 +1,12 @@
 [workspace]
 members = [
-    "s01_agent_loop",
+    "s01_agent_loop", "s02_tool_use",
 ]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
 
 [workspace.dependencies]
 anthropic-ai-sdk = "0.2.27"

@@ -1127,6 +1127,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "s02_tool_use"
+version = "0.1.0"
+dependencies = [
+ "anthropic-ai-sdk",
+ "anyhow",
+ "async-trait",
+ "dotenvy",
+ "inquire",
+ "serde",
+ "serde_json",
+ "tokio",
+]
+
+[[package]]
 name = "schannel"
 version = "0.1.29"
 source = "registry+https://github.com/rust-lang/crates.io-index"
