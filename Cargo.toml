@@ -1,6 +1,6 @@
 [workspace]
 members = [
-    "s01_agent_loop", "s02_tool_use", "s03_todo_write",
+    "s01_agent_loop", "s02_tool_use", "s03_todo_write", "s04_subagent",
 ]
 
 [workspace.package]
